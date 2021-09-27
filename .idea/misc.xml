@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/Quiz.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24745232632235054" />
+        <entry key="app/src/main/res/layout/activity_question3.xml" value="0.2753623188405797" />
+        <entry key="app/src/main/res/layout/activity_question4.xml" value="0.2753623188405797" />
+        <entry key="app/src/main/res/layout/activity_question5.xml" value="0.2753623188405797" />
+        <entry key="app/src/main/res/layout/activity_sisteside.xml" value="0.20697463768115942" />
+        <entry key="app/src/main/res/layout/activity_sporsmal02.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/quiz.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/sporsmal01.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/sporsmal1.xml" value="0.2560487835794366" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

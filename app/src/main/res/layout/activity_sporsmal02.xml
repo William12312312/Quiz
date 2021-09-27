@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SecondActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/sporsmal"
+        android:layout_width="389dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="102dp"
+        android:ems="10"
+        android:text="@string/humans_are_geneticly_related_to_bananas"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_true"
+        android:layout_width="99dp"
+        android:layout_height="62dp"
+        android:text="@string/true_knapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <Button
+        android:id="@+id/button_false"
+        android:layout_width="99dp"
+        android:layout_height="62dp"
+        android:onClick="Button_false"
+        android:text="@string/false_knapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554"
+        app:strokeColor="#020202" />
+
+    <EditText
+        android:id="@+id/points"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sporsmal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <Button
+        android:id="@+id/FerdigBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="156dp"
+        android:text="Ferdig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

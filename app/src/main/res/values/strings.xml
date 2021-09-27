@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="true_knapp">True</string>
+    <string name="false_knapp">False</string>
+    <string name="next">Next</string>
+    <string name="right_answer">Right answer</string>
+    <string name="humans_are_geneticly_related_to_bananas">Humans are geneticly related to bananas</string>
+    <string name="takk_for_at_du_spilte_denne_quizen_du_fikk_5_poeng">Takk for at du spilte denne Quizen. Du fikk 5 poeng</string>
+    <string name="welcome_to_the_quiz">Welcome to the quiz</string>
+</resources>
