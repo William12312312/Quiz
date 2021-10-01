@@ -1,8 +1,7 @@
 package net.simplifiedcoding.spendtracker
 
 object Validator {
-    fun validateInput(amaunt: Int, desc: String){
-
-
+    fun validateInput(amount: Int, desc: String) : Boolean{
+        return !(amount <= 0 || desc.isEmpty())
     }
 }
